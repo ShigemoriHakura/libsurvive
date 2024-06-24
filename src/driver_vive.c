@@ -2794,7 +2794,7 @@ static inline uint32_t read_buffer32(uint8_t *readdata, int idx) {
 
 static uint32_t earliest_working_revision(uint32_t hw_id) { return 1462663157; }
 
-static uint32_t latest_working_revision(uint32_t hw_id) { return 1632556731; }
+static uint32_t latest_working_revision(uint32_t hw_id) { return 1637337510; }
 
 static void parse_tracker_version_info(SurviveObject *so, const uint8_t *data, size_t size) {
 	SurviveContext *ctx = so->ctx;
